@@ -1,0 +1,75 @@
+! Swap caps lock and escape
+!remove Lock = Caps_Lock
+!keysym Escape = Caps_Lock
+!keysym Caps_Lock = Escape
+!add Lock = Caps_Lock
+
+keycode 22  = BackSpace
+!keycode 115 = F13
+!keycode 117 = Menu
+keycode 20  = minus underscore endash emdash
+
+keysym  0 = 0 parenright degree
+keysym  1 = 1 exclam onehalf
+keysym  2 = 2 at twosuperior twosubscript
+keysym  3 = 3 numbersign threeeighths
+keysym  4 = 4 dollar onequarter
+keysym  5 = 5 percent EuroSign fiveeighths
+keysym  8 = 8 asterisk infinity
+
+keysym  a = a A aacute adiaeresis
+keysym  c = c C copyright ccedilla
+keysym  d = d D egrave
+keysym  e = e E eacute ediaeresis
+keysym  f = f F
+keysym  g = g G malesymbol femalesymbol
+keysym  i = i I iacute idiaeresis
+keysym  j = j J ugrave
+keysym  k = k K igrave musicalsharp
+keysym  l = l L ograve lstroke
+keysym  o = o O oacute odiaeresis
+keysym  p = p P phonographcopyright paragraph
+keysym  r = r R registered
+keysym  s = s S ssharp section
+keysym  t = t T trademark telephone
+keysym  u = u U uacute udiaeresis
+keysym  x = x X dagger doubledagger
+keysym  z = z Z agrave atilde
+keysym  m = m M Greek_mu musicalflat
+keysym  n = n N minutes seconds
+keysym  equal = equal plus notequal plusminus
+keysym  bracketleft = bracketleft braceleft guillemotleft
+keysym  bracketright = bracketright braceright guillemotright
+keysym  backslash = backslash bar periodcentered emfilledcircle
+!doubbaselinedot
+keysym  semicolon = semicolon colon leftsinglequotemark club
+keysym  apostrophe = apostrophe quotedbl rightsinglequotemark openstar
+keysym  comma = comma less doublelowquotemark diamond
+keysym  period = period greater rightdoublequotemark ellipsis
+keysym  slash = slash question leftdoublequotemark heart
+
+keysym  Left = Left NoSymbol leftarrow ifonlyif
+! filledlefttribullet
+keysym  Right = Right NoSymbol rightarrow implies
+! filledrighttribullet
+keysym  Up = Up NoSymbol uparrow caret
+keysym  Down = Down NoSymbol downarrow signifblank
+keysym  space = space NoSymbol ellipsis
+
+! setting the AltGr key as the Alt_R key
+clear mod1
+clear mod4
+add mod1 = Alt_L
+keycode 108 = Mode_switch
+add mod4 = Mode_switch
+
+! setting the Win key to mod2
+
+
+!keysym Alt_L = Meta_L Alt_L
+
+keycode 254 = ISO_Fast_Cursor_Up
+keycode 255 = ISO_Fast_Cursor_Down
+
+
+!keycode 117 = Next
